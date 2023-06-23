@@ -1,6 +1,6 @@
 # Sentiment Analysis API
 
-The Sentiment Analysis API is a Flask-based API that provides sentiment analysis functionality using a pre-trained model. The API allows users to send a text query and receive the predicted sentiment as a response. We need you use larger model for more accurate result. 
+The Sentiment Analysis API is a Flask-based API that provides sentiment analysis functionality using a pre-trained model. The API allows users to send a text query and receive the predicted sentiment as a response. **We need to use larger model for more accurate result**. 
 
 I am using FLASK web framework to build this API.
 #### FLASK
@@ -9,7 +9,7 @@ I am using FLASK web framework to build this API.
   cd api
   python main.py
   ```
-  
+
 ## Features
 - Accepts POST requests at `/analyze` endpoint.
 - Performs sentiment analysis on the provided text using a pre-trained machine learning model.
